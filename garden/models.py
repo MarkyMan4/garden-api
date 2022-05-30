@@ -16,7 +16,7 @@ class Plant(models.Model):
 
 # plants that have been put into a garden
 class GardenPlant(models.Model):
-    garden = models.ForeignKey(Garden, on_delete=models.CASCADE)
+    garden = models.ForeignKey(Garden, related_name='plants', on_delete=models.CASCADE)
     plant = models.ForeignKey(Plant, on_delete=models.CASCADE)
     number_planted = models.IntegerField(null=False)
     date_planted = models.DateField(null=False)

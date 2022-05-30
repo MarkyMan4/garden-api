@@ -11,4 +11,4 @@ insert into garden_plant (
 ('spaghetti squash', 36, 36, 10, 100, 1, null),
 ('carrot', 3, 36, 10, 75, 1, 'When planting, put four seeds in holes one inch apart. Once plants are two inches tall, thin them to three inches apart.'),
 ('chamomile', 8, 18, 14, 60, 0.25, null),
-('cherry tomato', 24, 24, 10, 60, 0.25, null);
+('cherry tomato', 24, 24, 10, 60, 1, null);
